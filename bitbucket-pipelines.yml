@@ -1,0 +1,20 @@
+pipelines:
+  branches:
+    v12-develop:
+      - step:
+          name: Deploy to EC2
+          runs-on:
+            - self.hosted
+            - linux.shell
+          script:
+            - |
+                if git log -1 --pretty=%B | grep -q "Merged"; then
+                  echo "Pulling latest code..."
+                  cd /phpweb/demo-web
+                  git checkout v12-develop
+                  git pull origin
+                  composer install
+                  php artisan migrate
+                else
+                  echo "No branch merged - skipping deploy"
+                fi
