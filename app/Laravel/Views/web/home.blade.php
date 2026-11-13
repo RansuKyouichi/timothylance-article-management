@@ -8,7 +8,7 @@
 
             <div class="col-lg-6">
                 <span class="section-label">
-                    WELCOME TO AMS - Article Management System
+                    WELCOME TO AMS - Article and Media Site
                 </span>
 
                 <h1 class="hero-title editorial-heading mt-3">

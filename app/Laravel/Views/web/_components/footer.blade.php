@@ -39,7 +39,7 @@
         <div class="d-flex flex-column flex-md-row
                     justify-content-between gap-2">
             <p class="copyright mb-0">
-                &copy; {{ date('Y') }} Article Management System.
+                &copy; {{ date('Y') }} Article and Media Site.
                 All rights reserved.
             </p>
 
