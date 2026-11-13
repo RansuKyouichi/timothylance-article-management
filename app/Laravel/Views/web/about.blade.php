@@ -346,7 +346,7 @@
     line-height: 1.9;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 
     .about-hero {
         padding: 0px 0 60px;
@@ -366,7 +366,7 @@
 
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
 
     .about-hero {
         padding: 0;

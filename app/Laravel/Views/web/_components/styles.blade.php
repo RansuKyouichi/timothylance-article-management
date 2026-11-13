@@ -148,7 +148,7 @@
         font-size: 0.8rem;
     }
 
-    @media (max-width: 991.98px) {
+    @media (max-width: 992px) {
         .site-navbar .navbar-collapse {
             padding-top: 20px;
         }
@@ -161,7 +161,7 @@
     }
 
 
-    @media (max-width: 575.98px) {
+    @media (max-width: 576px) {
         .section-padding {
             padding-top: 55px;
             padding-bottom: 55px;
@@ -175,3 +175,4 @@
     }
 
 </style>
+

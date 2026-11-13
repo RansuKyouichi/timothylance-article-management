@@ -306,7 +306,7 @@
     line-height: 1.8;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 
     .contact-info {
         padding: 40px 30px;
@@ -318,7 +318,7 @@
 
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
 
     .contact-hero {
         padding: 0px 0 45px;
